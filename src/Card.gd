@@ -17,6 +17,15 @@ func _ready():
 func _process(delta):
 	pass
 
+
+
+func read_from_file(json_file_path:String):
+	var file = FileAccess.open(json_file_path, FileAccess.READ)
+	var test_json_conv = JSON.new()
+	test_json_conv.parse(file.get_as_text())
+	
+	
+
 # Constructor
 func _init(score:int, cost:int):
 	self.score = score

@@ -8,6 +8,8 @@ class_name PowerCard
 ## The static path to the script that contains the code to run the power card
 @export var effect: String
 
+
+
 ## Stores the static list of triggers for power cards
 enum POWER_CARD_TRIGGERS {
 	## The power card's code is invoked when the player removes a card from their hand

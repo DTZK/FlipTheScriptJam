@@ -1,4 +1,5 @@
 extends Node
+class_name Player
 
 @export var MAX_HAND_SIZE:int = 10
 @export var hand: Array[Card] = []

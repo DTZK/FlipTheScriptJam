@@ -14,4 +14,3 @@ func _process(delta):
 ## Processes the hand for the given player
 func process_hand(player: Player, hand: Array[Card]):
 	# Locate all power cards
-

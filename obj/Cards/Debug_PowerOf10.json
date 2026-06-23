@@ -1,0 +1,7 @@
+{
+	"type": "power",
+	"cost": 0,
+	"score": 0,
+	"trigger": "ON_TURN_END",
+	"effect": "res://src/Powers/SamplePower.gd"
+}
