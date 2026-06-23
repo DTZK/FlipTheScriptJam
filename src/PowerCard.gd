@@ -30,3 +30,8 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
+
+func _init(score: int, cost: int, trigger: POWER_CARD_TRIGGERS, effect_path: String):
+	super(score, cost)
+	self.trigger = trigger
+	# TODO: Parse the effect_path as a resource
