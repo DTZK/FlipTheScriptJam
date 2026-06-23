@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3p5i3q7ccpok"]
+
+[ext_resource type="Script" path="res://src/Player.gd" id="1_p25nh"]
+
+[node name="Player" type="Node"]
+script = ExtResource("1_p25nh")
+MAX_HAND_SIZE = null
+score = null
