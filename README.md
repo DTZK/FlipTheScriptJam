@@ -4,4 +4,5 @@
 Card Game - Social Deduction
 
 TODO: Card generator (make a new class). This is the card draw function
+
 TODO: Create JSON format of cards. obj/cards check it for formatting
