@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://h8gyqe64t1iy"]
+[gd_scene format=3 uid="uid://h8gyqe64t1iy"]
 
-[ext_resource type="Script" path="res://src/Card.gd" id="1_scp4f"]
+[ext_resource type="Script" uid="uid://teebw7fl6jxk" path="res://src/Card.gd" id="1_scp4f"]
 
-[node name="PowerCard" type="Node"]
+[node name="PowerCard" type="Node" unique_id=1513874018]
 script = ExtResource("1_scp4f")

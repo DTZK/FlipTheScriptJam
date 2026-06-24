@@ -8,6 +8,8 @@ class_name PowerCard
 ## The static path to the script that contains the code to run the power card
 @export var effect: String
 
+
+
 ## Stores the static list of triggers for power cards
 enum POWER_CARD_TRIGGERS {
 	## The power card's code is invoked when the player removes a card from their hand
@@ -28,3 +30,8 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
+
+func _init(score: int, cost: int, trigger: POWER_CARD_TRIGGERS, effect_path: String):
+	super(score, cost)
+	self.trigger = trigger
+	# TODO: Parse the effect_path as a resource

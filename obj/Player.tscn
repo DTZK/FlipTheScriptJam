@@ -4,5 +4,3 @@
 
 [node name="Player" type="Node"]
 script = ExtResource("1_p25nh")
-MAX_HAND_SIZE = null
-score = null
